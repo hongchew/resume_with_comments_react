@@ -3,7 +3,7 @@ Built on React.js, react-bootstrap and firebase
 
 Deployed website: https://hongchew-kaliber-labs.firebaseapp.com/
 
-## Instruction to Run
+## Addtional Instructions to Run
 Create ```base.js``` in the ```/client/src``` folder
 
 Add the following code to ```base.js```: 
@@ -31,4 +31,4 @@ export const auth = firebaseApp.auth();
 export default base;
 ```
 
-Add in your own firebase configuration information
+Add in your own firebase configuration information in ```const firebaseApp```
